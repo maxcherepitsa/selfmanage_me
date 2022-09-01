@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Max Cherepitsa Blog - Selfmanage.me'
+theme = 'congo'
