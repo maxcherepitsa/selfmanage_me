@@ -1,7 +1,7 @@
 ---
 title: "4 Questions for your effectiveness"
 date: 2022-09-02T03:23:27+04:00
-draft: false
+draft: true
 tags: "test-tag"
 categories: "posts"
 ---
