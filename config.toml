@@ -1,4 +1,75 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Max Cherepitsa Blog - Selfmanage.me'
-theme = 'congo'
+title = 'Selfmanage.me'
+theme = 'tufte'
+
+[params]
+  # Subtitle of the website
+  subtitle = "Notes on self-management, people management, marketing and enterpreneurship."
+  # Your name or the name of you company
+  copyrightHolder = "Max Cherepitsa"
+  # Show the "Powered by Hugo-Tufte and Hugo." 
+  showPoweredBy = false
+  # Site wide kill switch
+  hidedate = false
+  # Uncomment for dark code blocks
+  codeBlocksDark = true
+
+  mainSections = ["post"]
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+  # -----------------------------------------------------------------------
+# Navigation menu 
+# -----------------------------------------------------------------------
+[[menu.nav]]
+  name = "Home"
+  pre = "<i class='fas fa-home la-lg'></i>"
+  weight = -110 
+  identifier = "home"
+  url = "/"
+[[menu.nav]]
+  name = "Posts"
+  pre = "<i class='fas fa-book fa-lg'></i> "
+  weight = -100 
+  identifier = "posts"
+  url = "/posts"
+[[menu.nav]]
+  name = "Tags"
+  pre = "<i class='fas fa-tags fa-lg'></i> "
+  weight = -90 
+  identifier = "tags"
+  url = "/tags"
+[[menu.nav]]
+  name = "About"
+  pre = "<i class='fas fa-info-circle  fa-lg'></i> "
+  weight = -80 
+  identifier = "about"
+  url = "/about"
+
+# -----------------------------------------------------------------------
+# FOOTER MENU
+# If you need to add custom links to you footer: put them here. Be aware that this theme is using fontawesome. 
+# Please head to https://fontawesome.com/v4.7/icons/ to pick icons
+# -----------------------------------------------------------------------
+
+#[[menu.footer]]
+#  name = "Custom footer link"
+#  pre = "<i class='fab fa-google fa-lg'></i> "
+#  weight = -90 
+#  identifier = "custom_link"
+#  url = "https://google.com"
+
+
+# Don't change the settings below
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # make the shortcodes work
+  [markup.highlight]
+      noClasses = false
+
+pygmentsUseClasses = true
+canonifyurls = true
