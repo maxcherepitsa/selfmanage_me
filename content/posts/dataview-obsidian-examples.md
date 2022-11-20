@@ -1,7 +1,8 @@
 ---
-title: "Dataview Obsidian Examples"
+title: 'Dataview Obsidian Examples'
 date: 2022-09-03T02:36:48+04:00
 draft: false
+tags: ["Obsidian", "how-to"]
 ---
 
 When I add posts written not by me in my Obsidian, I usually title them like ‘Name - Post Title’ and backlink them to the note named after the author. I was looking for any automated option to list them inside the note, not inside the Backlink pane, and discovered the DataView plugin. It helps you to work with your knowledge base as if it were data base. Means: to make queries and get lists and tables of notes you need.
