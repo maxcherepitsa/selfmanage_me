@@ -16,7 +16,7 @@ notes 'on the fly', while editing them, and get more insights.
 Roam, and Logseq users are familiar with such feature, but Obsidian users 
 may not, so take a look at this screenshot:
 
-![SNW Obsidian Plugin Screenshot](/images/snw-screenshot.png "Obsidian Plugin SNW Screenshot")
+![SNW Obsidian Plugin Screenshot](/images/snw-screenshot.png)
 
 
 Plugin adds those little rectangles over the right corner of backlinks in 
