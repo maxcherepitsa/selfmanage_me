@@ -1,7 +1,7 @@
 baseURL = 'http://blog.selfmanage.me/'
 languageCode = 'en-us'
 title = 'Selfmanage.me'
-theme = 'tufte'
+theme = 'er'
 
 [params]
   # Subtitle of the website
