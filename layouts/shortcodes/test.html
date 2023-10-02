@@ -1,10 +1,10 @@
 <ul>
 {{ range .Site.RegularPages.ByDate.Reverse | first 10 }}
-<li><h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2></li>
+<li><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2></li>
 {{ .Summary }}
 <br>
 {{ if .Truncated }}
-<a href="{{ .Permalink }}">Read more...</a>
+<a href="{{ .RelPermalink }}">Read more...</a>
 {{ end }}
 <hr>
 {{ end }}
